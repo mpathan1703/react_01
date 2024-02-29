@@ -1,6 +1,12 @@
-//  const N = function  (){
-//     return <>
-//     <h4> I am from N Component </h4>
-//     </>
-//  }
-//  export default N;
+import React from 'react'
+import O from "./O"
+function N() {
+  return (
+ <>
+   <div style={{background:"orange",color:"black",marginRight:"10%"}}> I am <span style={{color:"white", fontWeight:"bold"}}>N  </span> My Parrant is <span style={{color:"blue"}}>M </span> </div><br/>
+   <O/>
+ </>
+  )
+}
+
+export default N

@@ -1,7 +1,12 @@
-const Z = () => {
-    return <>
-    <h4> I am the Last One Z Component..........</h4>
-    </>
-}
-export default Z;
+import React from 'react'
 
+function Z() {
+  return (
+ <>
+  <div style={{background:"orange",color:"black",marginRight:"10%"}}> I am <span style={{color:"white", fontWeight:"bold"}}>Z </span> My Parrant is <span style={{color:"blue"}}>Y </span> </div><br/>
+
+ </>
+  )
+}
+
+export default Z

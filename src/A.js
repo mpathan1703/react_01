@@ -1,9 +1,13 @@
-// always use first letter capital while creating a file intead of index.js
+import React from 'react'
+import B from './B'
 
- export const  A = function (){ // USING ANONYMOUS FUNCTION 
-    return <>
-    <h1>WelCome!.......</h1>
-    <h4> I am A Component</h4>
-    </>
+function A() {
+  return (
+   <>
+ <div style={{background:"grey",color:"white",marginLeft:"10%"}}> I am <span style={{color:"yellow", fontWeight:"bold"}}> A </span> My Parrant is <span style={{color:"blue"}}>App</span> </div> <br />
+   <B/>
+   </>
+  )
+}
 
-} 
+export default A
