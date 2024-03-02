@@ -5,7 +5,7 @@ function O() {
   return (
    <>
    
-   <div style={{ background: "darkcyan",marginLeft:"10%"}}> I am <span style={{ color: "pink", fontWeight: "bold" }}> O  </span> My Parrant is <span style={{ color: "white" }}>N </span> </div><br />
+   <div > I am <span style={{ color: "pink", fontWeight: "bold" }}> O  </span> My Parrant is <span style={{ color: "black" }}>N </span> </div><br />
 
    <P/>
    </>

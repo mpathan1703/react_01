@@ -4,7 +4,7 @@ import G from './G'
 function F() {
   return (
    <>
-    <div style={{background:"darkcyan"}}> I am <span style={{color:"pink", fontWeight:"bold"}}> F  </span> My Parrant is <span style={{color:"white"}}>E </span> </div><br/>
+    <div s> I am <span style={{color:"pink", fontWeight:"bold"}}> F  </span> My Parrant is <span >E </span> </div><br/>
 < G/>
    
    

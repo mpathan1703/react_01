@@ -4,7 +4,8 @@ import A from './A'
 function App() {
   return (
  <>
-  <div style={{background:"darkcyan"}}> I am <span style={{color:"pink", fontWeight:"bold"}}> App </span> My Parrant is <span style={{color:"white"}}>Index </span> </div><br/>
+<div style={{background:"#7EE2B8", fontSize:"30PX",padding:"3px 3px"}}>
+<div> I am <span style={{color:"pink", fontWeight:"bold"}}> App </span> My Parrant is <span >Index </span> </div><br/>
 
 <Heading name="Maivish" age={19} city="Bhokardan" state="Maharashtra"/><br/>
 <Heading name="Mayuri" age={19} city="Sambhajinagar" state="Maharashtra"/><br/>
@@ -13,6 +14,7 @@ function App() {
 
 
  <A/>
+</div>
  </>
   )
 }

@@ -4,7 +4,7 @@ import R from "./R"
 function Q() {
   return (
  <>
-  <div style={{background:"orange",color:"black",marginLeft:"10%"}}> I am <span style={{color:"white", fontWeight:"bold"}}> Q  </span> My Parrant is <span style={{color:"blue"}}>P  </span> </div><br/>
+  <div > I am <span style={{color:"red", fontWeight:"bold"}}> Q  </span> My Parrant is <span style={{color:"blue"}}>P  </span> </div><br/>
 <R/>
 
  </>

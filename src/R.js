@@ -4,7 +4,7 @@ import {S} from "./S"
 function R() {
   return (
 <>
-<div style={{background:"darkcyan"}}> I am <span style={{color:"pink", fontWeight:"bold"}}> R  </span> My Parrant is <span style={{color:"white"}}>Q</span> </div><br/>
+<div > I am <span style={{color:"pink", fontWeight:"bold"}}> R  </span> My Parrant is <span style={{color:"red"}}>Q</span> </div><br/>
 <S/>
 
 </>

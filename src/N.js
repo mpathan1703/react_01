@@ -3,7 +3,7 @@ import O from "./O"
 function N() {
   return (
  <>
-   <div style={{background:"orange",color:"black",marginRight:"10%"}}> I am <span style={{color:"white", fontWeight:"bold"}}>N  </span> My Parrant is <span style={{color:"blue"}}>M </span> </div><br/>
+   <div > I am <span style={{color:"darkcyan", fontWeight:"bold"}}>N  </span> My Parrant is <span style={{color:"blue"}}>M </span> </div><br/>
    <O/>
  </>
   )
